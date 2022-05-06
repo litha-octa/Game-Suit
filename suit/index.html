@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = 'stylesheet' href="styling.css"/>
-    <title>Suit Game</title>
+    <title>Suit Game with Litha</title>
 </head>
 <body>
     <div id = "app">
@@ -26,7 +26,7 @@
         class Start{
             constructor(){
                 this.playerName = 'Kamu'
-                this.botName= 'SuitBot'
+                this.botName= 'Litha'
                 this.winner=''
                 this.playerOption;
                 this.botOption;
@@ -95,7 +95,7 @@
 
             inGame.textContent = `${start.getPlayerOption} VS ${start.getBotOption}`
             result.textContent = start.matchResult();
-            who.textContent = `Kamu  VS   SuitBot`;
+            who.textContent = `Kamu  VS   Litha`;
         }
     </script>
  </body>
