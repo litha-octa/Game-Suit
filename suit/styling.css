@@ -1,0 +1,40 @@
+:root{
+    box-sizing: border-box;
+}
+html, body , * {
+    margin :0;
+    padding:0;
+}
+#app{
+    height:100vh;
+}
+.title{
+    text-align: center;
+}
+.summary {
+    border : 3px solid blanchedalmond;
+    width :400px;
+    height: 400px;
+    margin : 0 auto;
+    text-align: center;
+}
+.game{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin :10;
+}
+.option{
+    width: 30%;
+    margin: 10px 25px;
+    padding: 25px;
+    font-size: 40px;
+    background-color: bisque;
+    text-align: center;
+}
+.option:hover {
+    background-color: burlywood;
+    cursor: pointer;
+    transition: cubic-bezier(0.125, 0.61, 0.355,1) ease-in-out;
+    transform: scale(110%);
+}
